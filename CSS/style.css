@@ -117,6 +117,12 @@ main > section{
     color: #FF900E;
 }
 
+/* Features section */
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
 /* Some fact section */
 .fact-container{
     display: grid;
