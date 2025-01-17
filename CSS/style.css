@@ -195,6 +195,18 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* Footer */
+footer{
+    max-width: 1440px;
+    margin: 130px auto;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+}
+.footer-cr{
+    font-size: 1.25rem;
+    padding: 39px 410px;
+}
+
 
 /* Responsive */
 
@@ -223,6 +235,9 @@ main > section{
     .featured-architect img{
         width: 100%;
     }
+    .footer-cr{
+        padding: 75px;
+    }
 }
 
 /* For Medium Devices */
@@ -241,9 +256,16 @@ main > section{
         gap: 50px;
     }
     .features{
+        flex-direction: column;
         gap: 100px;
     }
     #experience-badge{
         margin: 30px;
+    }
+    .featured-architect img{
+        width: 100%;
+    }
+    .footer-cr{
+        padding: 150px;
     }
 }
